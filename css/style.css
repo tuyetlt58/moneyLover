@@ -1,0 +1,44 @@
+.newRow{
+	margin-left: 50px;
+	float: left;
+	width: 100px;
+	text-align: left;
+	align: center;
+}
+h2>center{
+	margin-top: 50px;
+}
+.header{
+	height: 150px;
+}
+.error{
+	background-color: red;
+}
+sup{
+	color: red;	
+}
+body > a{
+	color: black;
+	margin-top: 360px;
+	margin-left: 620px;
+	text-align: center;
+}
+form{
+	width: 350px;
+	background-color: yellow;
+	height: 500px;
+	margin-left: 900px;
+	margin-right: 10px;
+	margin-top: 50px;
+	align: right;
+}
+button{
+	text-align: center;
+}
+label{
+	 center;
+}
+body>div{
+	margin-left: 1200px;
+	margin-top: 30px;
+}

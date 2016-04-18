@@ -1,0 +1,37 @@
+<!doctype html><html>
+<head><title>Log in</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head><body background="images/background2.png">
+	<form class="form2" method = "Post" action="">
+		<h2><center>Log in</center></h2>
+		<label class="newRow">Id: </label>
+		<input type="text" id="id" name="id" onkeyup="Dokeyup(event, this, 'password');">
+		<span>
+		<br><br>
+
+		<label class="newRow">Password: </label>
+		<input type="text" id="password" name="password" onkeyup="Dokeyup(event, this, '');">
+		<span>
+		<br><br>
+	
+		<label class="newRow">&nbsp</label>
+		<input type="checkbox" id="remember" name="remember">Remember password
+		<br><br>
+
+		<label class="newRow">&nbsp</label>
+		<input type="button" id="submit" name="submit" value="Submit"> 
+		<input type="button" id="cancel" name="cancel" value="Cancel">
+		<span>
+		<br><br>
+
+		<label class="newRow">&nbsp</label>
+		<div><a id="ForgetPassword" name="ForgetPassword" href="google.com">Forget password?</a>
+		<br>
+		<a id="SignUp" name="SignUp" href="C:\Users\LeTuyet\Dropbox\học tập\ptud web\Thực hành\btl\sign_up.html">Sign Up</a></div>
+		<span>
+		<br><br>
+		
+	</form>
+</body>
+</html>
